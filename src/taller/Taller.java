@@ -4,6 +4,8 @@
  */
 package taller;
 
+import FaustoFront.Fausto;
+
 /**
  *
  * @author aula12
@@ -15,6 +17,10 @@ public class Taller {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Fausto objf=new Fausto("Fausto Alexander Garcia Mendivelso","Front");
+        objf.Mostrar();
+        
+        
     }
     
 }
